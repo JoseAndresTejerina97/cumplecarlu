@@ -11,16 +11,22 @@
         <div class="overflow-y-auto h-screen">
             <!-- Imagen 1 -->
             <img src="imagen1.png" alt="Imagen 1" class="w-full h-auto">
-            <!-- Imagen 2 -->
-            <img src="imagen2.png" alt="Imagen 2" class="w-full h-auto">
+            
+            <!-- Imagen 2 con botón de ubicación -->
+            <div class="relative">
+                <img src="imagen2.png" alt="Imagen 2" class="w-full h-auto">
+                <a href="https://www.google.com/maps" target="_blank" class="absolute left-1/2 transform -translate-x-1/2 top-[75%] bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
+                    Ver Ubicación
+                </a>
+            </div>
+            
             <!-- Imagen 3 -->
             <img src="imagen3.png" alt="Imagen 3" class="w-full h-auto">
-            <!-- Imagen 4 -->
-            <img src="imagen4.png" alt="Imagen 4" class="w-full h-auto">
             
-            <!-- Botón de confirmación -->
-            <div class="text-center py-6">
-                <button onclick="confirmarAsistencia()" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
+            <!-- Imagen 4 con botón de confirmación -->
+            <div class="relative">
+                <img src="imagen4.png" alt="Imagen 4" class="w-full h-auto">
+                <button onclick="confirmarAsistencia()" class="absolute left-1/2 transform -translate-x-1/2 top-[75%] bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
                     Confirmar Asistencia
                 </button>
             </div>
