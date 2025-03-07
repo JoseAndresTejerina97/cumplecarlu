@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Especial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="w-full max-w-2xl bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="overflow-y-auto h-screen">
+            <!-- Imagen 1 -->
+            <img src="https://via.placeholder.com/800x600" alt="Imagen 1" class="w-full h-auto">
+            <!-- Imagen 2 -->
+            <img src="https://via.placeholder.com/800x600" alt="Imagen 2" class="w-full h-auto">
+            <!-- Imagen 3 -->
+            <img src="https://via.placeholder.com/800x600" alt="Imagen 3" class="w-full h-auto">
+            <!-- Imagen 4 -->
+            <img src="https://via.placeholder.com/800x600" alt="Imagen 4" class="w-full h-auto">
+            
+            <!-- Botón de confirmación -->
+            <div class="text-center py-6">
+                <button onclick="confirmarAsistencia()" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-bold hover:bg-blue-700 transition">
+                    Confirmar Asistencia
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function confirmarAsistencia() {
+            alert("¡Gracias por confirmar tu asistencia!");
+        }
+    </script>
+</body>
+</html>
